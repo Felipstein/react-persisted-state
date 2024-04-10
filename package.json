@@ -13,6 +13,7 @@
     "url": "https://github.com/Felipstein",
     "email": "felipstein.oliveira@gmail.com"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig-build.json && vite build",
