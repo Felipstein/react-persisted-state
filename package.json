@@ -8,6 +8,11 @@
     "dist"
   ],
   "private": false,
+  "author": {
+    "name": "Felipe Oliveira",
+    "url": "https://github.com/Felipstein",
+    "email": "felipstein.oliveira@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig-build.json && vite build",
