@@ -93,7 +93,7 @@ const [state, setState] = usePersistedState('stateKey', null, new CustomPersiste
 ### Removing Persisted State
 
 ```ts
-import { usePersistedState, CookiePersistedAdapter } from 'react-persisted-state';
+import { usePersistedState } from 'react-persisted-state';
 
 const [theme, setTheme, removePersistedTheme] = usePersistedState<Theme>('theme', 'light');
 
