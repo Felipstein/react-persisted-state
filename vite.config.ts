@@ -1,5 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
 import path from 'path';
 
 import react from '@vitejs/plugin-react-swc';
