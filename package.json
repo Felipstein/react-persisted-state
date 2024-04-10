@@ -1,6 +1,6 @@
 {
   "name": "react-persisted-state",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/react-persisted-state.js",
   "types": "dist/usePersistedState.d.ts",
   "type": "module",
