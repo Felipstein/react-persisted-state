@@ -15,5 +15,8 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'lib/usePersistedState.ts'),
       formats: ['es', 'cjs'],
     },
+    rollupOptions: {
+      external: ['react', 'react/jsx-runtime'],
+    },
   },
 });
